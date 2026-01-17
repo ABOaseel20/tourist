@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>السياحة في المملكة العربية السعودية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#3b2f2f] text-white">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-l from-[#c9a24d] to-[#8b6b2e] shadow-lg">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+            <img src="images/logo.jpg" alt="" width="200">
+
+            <h1 class="text-2xl font-bold"> السياحة في السعودية</h1>
+            <nav class="space-x-6 space-x-reverse">
+                <a href="#home" class="hover:text-black">الرئيسية</a>
+                <a href="#places" class="hover:text-black">الوجهات</a>
+                <a href="#about" class="hover:text-black">عن السعودية</a>
+                <a href="#contact" class="hover:text-black">تواصل معنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-center py-20 bg-[url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c')] bg-cover bg-center">
+        <div class="bg-black/60 py-20">
+            <h2 class="text-4xl font-bold text-[#d4af37] mb-4">اكتشف جمال السعودية</h2>
+            <p class="max-w-2xl mx-auto text-lg">من الصحاري الذهبية إلى السواحل الخلابة، السعودية وجهتك السياحية القادمة</p>
+        </div>
+    </section>
+
+    <!-- Places -->
+    <section id="places" class="py-16 max-w-7xl mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center text-[#d4af37] mb-10">أبرز الوجهات السياحية</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-[#4a362a] rounded-2xl shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1587502536263-9298c79a2d1d" class="h-48 w-full object-cover" />
+                <div class="p-5">
+                    <h4 class="text-xl font-bold mb-2">العلا</h4>
+                    <p>تاريخ عريق ومناظر طبيعية مذهلة وآثار نبطية فريدة.</p>
+                </div>
+            </div>
+            <div class="bg-[#4a362a] rounded-2xl shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1591608516485-93c5fcd06b44" class="h-48 w-full object-cover" />
+                <div class="p-5">
+                    <h4 class="text-xl font-bold mb-2">الرياض</h4>
+                    <p>عاصمة حديثة تجمع بين التراث والتطور العمراني.</p>
+                </div>
+            </div>
+            <div class="bg-[#4a362a] rounded-2xl shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1602339752474-7588b1b1b7b4" class="h-48 w-full object-cover" />
+                <div class="p-5">
+                    <h4 class="text-xl font-bold mb-2">جدة</h4>
+                    <p>عروس البحر الأحمر بشواطئها وأسواقها التاريخية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-[#2b1f1a] py-16 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-[#d4af37] mb-6">عن السياحة في السعودية</h3>
+            <p class="text-lg leading-loose">تتميز المملكة العربية السعودية بتنوعها الثقافي والطبيعي، حيث تضم مواقع تاريخية، وصحاري شاسعة، وسواحل بحرية خلابة، بالإضافة إلى رؤية 2030 التي تهدف إلى جعل السعودية وجهة سياحية عالمية.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 max-w-5xl mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center text-[#d4af37] mb-8">تواصل معنا</h3>
+        <form class="bg-[#4a362a] p-8 rounded-2xl shadow-lg space-y-4">
+            <input type="text" placeholder="الاسم" class="w-full p-3 rounded bg-[#3b2f2f] border border-[#d4af37]" />
+            <input type="email" placeholder="البريد الإلكتروني" class="w-full p-3 rounded bg-[#3b2f2f] border border-[#d4af37]" />
+            <textarea placeholder="رسالتك" class="w-full p-3 rounded bg-[#3b2f2f] border border-[#d4af37]"></textarea>
+            <button class="w-full bg-[#d4af37] text-black py-3 rounded-xl font-bold hover:bg-[#c9a24d]">إرسال</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#1f1511] text-center py-6 text-sm">
+        © 2026 السياحة في السعودية - تصميم ذهبي وبني
+    </footer>
+
+</body>
+
+</html>
